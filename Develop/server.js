@@ -7,6 +7,7 @@ const fs = require("fs");
 const path = require('path');
 
 res.sendfile('./public/index.html');
+res.sendfile('./public/notes.html');
 
 //for data parsing
 app.use(express.urlencoded({ extended: true }));
